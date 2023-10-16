@@ -2,7 +2,7 @@ from flask import Flask,request,render_template,jsonify
 
 import sys
 sys.path.insert(1, r'C:\Diamond Price Prediction\src')
-from src.pipelines.prediction_pipeline import CustomData,PredictPipeline
+from pipelines.prediction_pipeline import CustomData,PredictPipeline
 
 application=Flask(__name__)
 
